@@ -45,3 +45,40 @@ This project is written in Python and uses the built-in `json` module for file h
 - `Task`: Represents individual tasks with ID, title, and completion status.
 - `TaskManager`: Handles all task management operations and file I/O.
 
+
+## How OUTPUT works(Working Process with EXAMPLE) -- 
+--- Task Manager ---
+ 1. Add Task
+2. View Tasks
+3. Delete Task
+4. Mark Task as Complete
+5. Save and Exit
+Enter your choice (1-5): 1
+Enter task title: Demo Task 1
+
+--- Task Manager ---
+1. Add Task
+2. View Tasks
+3. Delete Task
+4. Mark Task as Complete
+5. Save and Exit
+Enter your choice (1-5): 2
+ID: 1, Title: Demo Task 1, Status: Not Completed
+
+--- Task Manager ---
+Enter your choice (1-5): 4
+Enter the task ID to mark as complete: 1
+Task marked as completed.
+
+--- Task Manager ---
+Enter your choice (1-5): 2
+ID: 1, Title: Demo Task 1, Status: Completed
+
+--- Task Manager ---
+Enter your choice (1-5): 5
+Tasks saved successfully.
+Thank you for using Task Manager. Goodbye!
+
+
+  
+
